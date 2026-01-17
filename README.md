@@ -1,6 +1,12 @@
 # Investment Coach & Market Commentary Assistant  
 ### (RAG-Based Conversational AI System)
 
+## 🔗 Project Links
+
+- **GitHub Repository:** [Investment Coach](https://github.com/Narendra8767/investment-coach)
+- **Live Application:** [View Live App](https://investment-coach-1.onrender.com/)
+- **Application Demo Video :** [Demo Video](https://drive.google.com/file/d/1FynkOtw4zoosgFwdbuHLcGXSSW0Ec-8f/view?usp=sharing)
+
 ##  Project Overview
 
 The **Investment Coach & Market Commentary Assistant** is a **Retrieval-Augmented Generation (RAG)** based conversational AI chatbot designed to provide **educational investment guidance** and **neutral market commentary**.
@@ -202,8 +208,3 @@ Once the server starts, open:
 
 http://127.0.0.1:8000
 
-## 🔗 Project Links
-
-- **GitHub Repository:** [Investment Coach](https://github.com/Narendra8767/investment-coach)
-- **Live Application:** [View Live App](https://investment-coach-1.onrender.com/)
-- **Application Demo Video :** [Demo Video](https://drive.google.com/file/d/1FynkOtw4zoosgFwdbuHLcGXSSW0Ec-8f/view?usp=sharing)
