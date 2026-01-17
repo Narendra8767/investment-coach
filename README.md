@@ -132,10 +132,9 @@ This enables document-grounded, accurate responses.
 - Clean ChatGPT-style UI
 - Production-ready architecture
 
-  ##  System Architecture
-## 🧠 System Architecture
-
-![System Architecture](https://github.com/Narendra8767/investment-coach/blob/main/Live%20Demo.png)
+  ## Live Demo
+  
+![Live Demo](https://github.com/Narendra8767/investment-coach/blob/main/Live%20Demo.png)
 
 ## Observability & Monitoring with LangSmith
 
@@ -154,6 +153,8 @@ This observability layer helps ensure the chatbot behaves **predictably and safe
 - PDF-based RAG context
 - Live market news data
 
-
+  ## Live Demo
+  
+![Live Demo](https://github.com/Narendra8767/investment-coach/blob/main/Live%20Demo.png)
 
 
