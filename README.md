@@ -132,6 +132,22 @@ This enables document-grounded, accurate responses.
 - Clean ChatGPT-style UI
 - Production-ready architecture
 
+## Observability & Monitoring with LangSmith
+
+### LangSmith Integration
+
+This project integrates **LangSmith** for LLM observability, tracing, and debugging during development.
+
+LangSmith is used to:
+- Monitor **LangChain executions**
+- Trace **prompt → model → response** flows
+- Debug **latency issues, failures, and unexpected outputs**
+- Improve **prompt quality** and overall system reliability
+
+This observability layer helps ensure the chatbot behaves **predictably and safely**, especially when combining:
+- User input
+- PDF-based RAG context
+- Live market news data
 
 
 
