@@ -155,6 +155,7 @@ This observability layer helps ensure the chatbot behaves **predictably and safe
 
   ## LangSmith
   
-![LangSmith](https://github.com/Narendra8767/investment-coach/blob/main/Langsmith.png)
+![LangSmith](<img width="1672" height="943" alt="Langsmith" src="https://github.com/user-attachments/assets/69a8cb8c-9b2d-4334-b034-6d26979f2092" />
+)
 
 
