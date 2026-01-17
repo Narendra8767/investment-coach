@@ -133,9 +133,9 @@ This enables document-grounded, accurate responses.
 - Production-ready architecture
 
   ##  System Architecture
+## 🧠 System Architecture
 
-![System Architecture](Live Demo.png)
-
+![System Architecture](https://github.com/Narendra8767/investment-coach/blob/main/Live%20Demo.png)
 
 ## Observability & Monitoring with LangSmith
 
