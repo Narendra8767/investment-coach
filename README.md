@@ -206,3 +206,4 @@ http://127.0.0.1:8000
 
 - **GitHub Repository:** [Investment Coach](https://github.com/Narendra8767/investment-coach)
 - **Live Application:** [View Live App](https://investment-coach-1.onrender.com/)
+- **Application Demo Video :** [Demo Video](https://drive.google.com/file/d/1FynkOtw4zoosgFwdbuHLcGXSSW0Ec-8f/view?usp=sharing)
