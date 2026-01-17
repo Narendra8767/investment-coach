@@ -162,22 +162,27 @@ This observability layer helps ensure the chatbot behaves **predictably and safe
 Follow the steps below to set up and run the project locally.
 
 ### 1 Clone the Repository
+
 `git clone <repo-url>`
 `cd investment-assistan`
 
 ### 2 Create and Activate Virtual Environment
+
 python -m venv venv
 `git clone <repo-url>`
 
 Activate the virtual environment:
 
 Windows
+
 `venv\Scripts\activate`
 
 macOS / Linux
+
 `source venv/bin/activate`
 
 ### 3️ Install Dependencies
+
 `pip install -r requirements.txt`
 
 ### 4️ Set Environment Variables
@@ -187,6 +192,7 @@ Set your API keys:
 `setx NEWS_API_KEY "your_news_api_ke`
 
 ### 5️ Run the Application
+
 `uvicorn app.main:app --reload`
 
 ### Open in Browser
@@ -194,3 +200,8 @@ Set your API keys:
 Once the server starts, open:
 
 http://127.0.0.1:8000
+
+## 🔗 Project Links
+
+- **GitHub Repository:** [Investment Coach](https://github.com/Narendra8767/investment-coach)
+- **Live Application:** [View Live App](https://investment-coach-1.onrender.com/)
