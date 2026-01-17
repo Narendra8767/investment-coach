@@ -153,8 +153,8 @@ This observability layer helps ensure the chatbot behaves **predictably and safe
 - PDF-based RAG context
 - Live market news data
 
-  ## Live Demo
+  ## LangSmith
   
-![Live Demo](https://github.com/Narendra8767/investment-coach/blob/main/Live%20Demo.png)
+![LangSmith](https://github.com/Narendra8767/investment-coach/blob/main/Langsmith.png)
 
 
