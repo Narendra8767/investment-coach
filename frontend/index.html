@@ -1,0 +1,35 @@
+<head>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <button class="new-chat" onclick="newChat()">＋ New Chat</button>
+      <div id="chat-list"></div>
+    </aside>
+
+    <!-- Main Chat -->
+    <div class="chat-area">
+      <header class="header">
+        <div class="title">📈 Investment Coach</div>
+        <div class="subtitle">Educational · Not Financial Advice</div>
+      </header>
+
+      <main id="chat-container">
+        <div id="messages"></div>
+      </main>
+
+      <footer class="input-bar">
+        <button class="icon-btn" onclick="uploadPDF()">➕</button>
+        <input id="input" placeholder="Ask something…" onkeydown="if(event.key==='Enter') send()" />
+        <button class="send-btn" onclick="send()">Send</button>
+        <input type="file" id="pdfInput" hidden />
+      </footer>
+    </div>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>

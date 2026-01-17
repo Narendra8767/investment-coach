@@ -1,0 +1,169 @@
+/* -------- Reset -------- */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* -------- Base -------- */
+body {
+  background: #0f172a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #e5e7eb;
+}
+
+/* -------- Layout -------- */
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* -------- Sidebar -------- */
+.sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: #020617;
+  border-right: 1px solid #1e293b;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat {
+  padding: 10px;
+  margin-bottom: 12px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#chat-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* -------- Chat Area -------- */
+.chat-area {
+  flex: 1;
+  min-width: 0;              /* 🔴 CRITICAL FIX */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* -------- Header -------- */
+.header {
+  padding: 14px 20px;
+  border-bottom: 1px solid #1e293b;
+  background: #020617;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* -------- Chat Container -------- */
+#chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+#messages {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* -------- Messages -------- */
+.message {
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.user {
+  text-align: right;
+}
+
+.user .bubble {
+  display: inline-block;
+  background: #2563eb;
+  padding: 10px 14px;
+  border-radius: 14px 14px 0 14px;
+  max-width: 80%;
+}
+
+.bot {
+  text-align: left;
+}
+
+.bot .bubble {
+  display: inline-block;
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 10px 14px;
+  border-radius: 14px 14px 14px 0;
+  max-width: 80%;
+}
+
+/* -------- Input Bar -------- */
+.input-bar {
+  display: flex;
+  gap: 10px;
+  padding: 14px;
+  border-top: 1px solid #1e293b;
+  background: #020617;
+}
+
+.input-bar input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: #e5e7eb;
+  outline: none;
+}
+
+.send-btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-btn {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
+/* -------- Scrollbars -------- */
+#chat-container::-webkit-scrollbar,
+#chat-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+#chat-container::-webkit-scrollbar-thumb,
+#chat-list::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 6px;
+}

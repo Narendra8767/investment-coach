@@ -1,0 +1,12 @@
+langchain-community
+fastapi
+uvicorn
+langchain
+langchain-openai
+langsmith
+python-dotenv
+requests
+faiss-cpu
+pypdf
+certifi
+
