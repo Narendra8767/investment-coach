@@ -132,6 +132,11 @@ This enables document-grounded, accurate responses.
 - Clean ChatGPT-style UI
 - Production-ready architecture
 
+  ##  System Architecture
+
+![System Architecture](Live Demo.png)
+
+
 ## Observability & Monitoring with LangSmith
 
 ### LangSmith Integration
