@@ -9,4 +9,5 @@ requests
 faiss-cpu
 pypdf
 certifi
+python-multipart
 
