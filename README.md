@@ -189,6 +189,7 @@ macOS / Linux
 
 Set your API keys:
 `setx OPENAI_API_KEY "your_api_key`
+
 `setx NEWS_API_KEY "your_news_api_ke`
 
 ### 5️ Run the Application
