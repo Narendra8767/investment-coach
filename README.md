@@ -157,4 +157,40 @@ This observability layer helps ensure the chatbot behaves **predictably and safe
   
 ![LangSmith](https://github.com/Narendra8767/investment-coach/blob/main/Langsmith%20interface.png)
 
+## Setup Instructions
 
+Follow the steps below to set up and run the project locally.
+
+### 1 Clone the Repository
+`git clone <repo-url>`
+`cd investment-assistan`
+
+### 2 Create and Activate Virtual Environment
+python -m venv venv
+`git clone <repo-url>`
+
+Activate the virtual environment:
+
+Windows
+`venv\Scripts\activate`
+
+macOS / Linux
+`source venv/bin/activate`
+
+### 3️ Install Dependencies
+`pip install -r requirements.txt`
+
+### 4️ Set Environment Variables
+
+Set your API keys:
+`setx OPENAI_API_KEY "your_api_key`
+`setx NEWS_API_KEY "your_news_api_ke`
+
+### 5️ Run the Application
+`uvicorn app.main:app --reload`
+
+### Open in Browser
+
+Once the server starts, open:
+
+http://127.0.0.1:8000
